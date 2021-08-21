@@ -1,0 +1,107 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    margin: 0vh;
+    flex-direction: column;
+    color:lavenderblush;
+}
+
+#inputLogin{
+    outline-style:none;
+    font-size: 8vw;
+    border: none;
+    background: none;
+    color: rgb(255, 225, 251);
+    width: 40vw;
+}
+
+#inputToDo{
+    outline: 0vh;
+    font-size: 3vw;
+    border: none;
+    background: none;
+    color: rgb(255, 225, 251);
+    
+}
+ul{
+    list-style:georgian;
+    justify-items:normal;
+}
+
+
+button{
+    background: none;
+    border: none;
+}
+
+heading{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    justify-items: flex-start;
+}
+
+sec1, sec2{
+    height: 20vh;
+}
+sec1{
+    flex-grow: 9;
+}
+sec2{
+    flex-grow: 1;
+}
+#weather{
+    display: flex;
+    flex-direction: column;
+    font-size: 4vw;
+
+}
+middle{
+    display: flex;
+    width: 100vw;
+    flex-grow: 1;
+    
+    flex-direction: row;
+
+}
+Inmiddle1{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+InInmiddle1{
+    flex-grow: 1;
+    font-size: 5vw;
+}
+InInmiddle2{
+    flex-grow: 1;
+    font-size: 3vw;
+}
+InInmiddle3{
+    flex-grow: 4;
+    font-size: 2vw;
+}
+
+Inmiddle2{
+    width: 30vw;
+    font-size: 3vw;
+    padding-left: 5vw;
+}
+
+
+h2{
+    margin: 0vh;
+}
+#quote{
+    font-size: 3vw;
+    font-style: italic;
+
+}
+.hidden {
+    display: none;
+}
