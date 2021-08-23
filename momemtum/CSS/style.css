@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Yeon+Sung&display=swap');
+html{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Yeon Sung', 'Jua', sans-serif;
+}
 body{
     height: 100vh;
     width: 100vw;
     text-align: center;
     display: flex;
-    margin: 0vh;
+    margin: 0;
     flex-direction: column;
     color:lavenderblush;
 }
@@ -15,6 +22,7 @@ body{
     background: none;
     color: rgb(255, 225, 251);
     width: 40vw;
+    font-family: 'Jua', sans-serif;
 }
 
 #inputToDo{
@@ -23,18 +31,74 @@ body{
     border: none;
     background: none;
     color: rgb(255, 225, 251);
+    width: 23vw;
+    font-family: 'Jua', sans-serif;
     
 }
 ul{
     list-style:georgian;
     justify-items:normal;
 }
-
-
 button{
     background: none;
     border: none;
 }
+
+/*
+li{
+    background-color: none;
+    cursor: pointer;
+}
+
+li{
+    line-height: 5vw;
+    height: 2vw;
+    text-align: center;
+    width: 5vw;
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative; 
+}
+li span {
+    z-index: 2; 
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+}
+li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.1);
+}
+li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.1);
+}
+li:hover::before {
+    transform: rotate(-45deg);
+    background-color: rgba(255,255,255,0);
+}
+li:hover::after {
+    transform: rotate(45deg);
+    background-color: rgba(255,255,255,0);
+}
+*/
 
 heading{
     display: flex;
@@ -47,15 +111,16 @@ sec1, sec2{
     height: 20vh;
 }
 sec1{
-    flex-grow: 9;
+    width: 70vw;
 }
 sec2{
-    flex-grow: 1;
+    width: 30vw;
 }
 #weather{
     display: flex;
     flex-direction: column;
-    font-size: 4vw;
+    font-size: 4vh;
+
 
 }
 middle{
@@ -69,9 +134,10 @@ middle{
 Inmiddle1{
     display: flex;
     flex-direction: column;
-    width: 70vw;
+    width: 65vw;
     justify-content: center;
     flex-wrap: wrap;
+    margin-left: 5vw;
 }
 
 InInmiddle1{
@@ -85,12 +151,14 @@ InInmiddle2{
 InInmiddle3{
     flex-grow: 4;
     font-size: 2vw;
+    justify-content: center;
+
 }
 
 Inmiddle2{
-    width: 30vw;
+    width: 25vw;
     font-size: 3vw;
-    padding-left: 5vw;
+    margin-left: 5vw;
 }
 
 

@@ -15,7 +15,7 @@ const source =`img/${todayImg}`;
 const body = document.body;
 
 body.style.background = `url(${source})`;
-body.style.backgroundSize = "cover";
+body.style.backgroundSize = "100vw 100vh";
 body.style.backgroundPosition = "center";
 body.style.backgroundRepeat = "no-repeat";
 body.style.backdropFilter = "grayscale(70%)";
